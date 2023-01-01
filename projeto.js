@@ -1,0 +1,1 @@
+alert('esse site está em estado beta')

@@ -1,0 +1,109 @@
+  .body{
+      background-image: linear-gradient(to top, black, gray);
+  }
+ 
+  *{
+     background-color:LavenderBlush;
+     margin:0;
+     color:SlateGray;
+     font-family: 'Prompt', sans-serif;
+  }
+
+  .perfil{
+      text-align:center;
+  }
+  .perfil img{
+      width:100px; 
+      height:100px;
+      border:3px solid pink;
+      border-radius:200px; 
+      margin-top:15px;   
+      margin-left:10px;  
+       
+     
+  animation: float 5s infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+       
+  }
+  
+  .texto{
+      margin:10px;
+  }
+  .texto h4{
+     text-align:center;
+  }
+  
+  .texto p{
+    text-align:center;
+    margin-top:10px;
+  }
+  .botão{
+      text-align:center;
+      
+                  }
+  
+  .botão button{
+   height:60px;
+   width:80%;
+   margin:20px, auto;
+   margin:20px;
+   flex-wrap: wrap;
+   border-radius:10px; 
+   font-weight: 700;  
+   box-shadow: inset 10px 10px 50% red;
+   border-bottom:5px solid grey;
+   border-top: 3px solid pink; 
+   border-right: solid 3px grey;
+   border-left:none;
+   background:pink;
+   font-size:15px;
+   
+  }
+
+ .botão button:hover{
+     
+   border-bottom:3px solid grey;
+   border-top: 2px solid pink; 
+   border-right: solid 2px grey;
+   border-left:none;
+ }
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 0
+  font-size:80px;
+}
+
+.fi fi-brands-instagram{
+    width:100px;
+}
+
+.coração{
+    text-align: center;
+    
+}
+
+.coração img{
+    height: 250px;
+    width: 250px;
+    opacity:70%;
+}
+
+.final{
+    background-color:red;
+    width:
+}
